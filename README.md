@@ -3,8 +3,8 @@
 ![Language: Python](https://img.shields.io/badge/Language-Python-blue)
 ![Language: C++](https://img.shields.io/badge/Language-C%2B%2B-blue)
 ![Library: OpenCV](https://img.shields.io/badge/Library-OpenCV-green)
-<!-- ![License: MIT](https://img.shields.io/badge/License-MIT-yellow) -->
 [![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+<!-- ![License: MIT](https://img.shields.io/badge/License-MIT-yellow) -->
 
 **A high-performance, side-by-side video wall for efficient experiment review.**
 
@@ -61,8 +61,8 @@ The system operates as a batch processing pipeline optimized for rendering throu
 
 ## 📂 Project Layout
 
-*   `main.py` - Core Python implementation and entry point.
-*   `OpenCV/video_grid/video_grid.cpp` - High-performance C++ grid renderer.
+*   [`main.py`](main.py) - Core Python implementation and entry point.
+*   [`video_grid.cpp`](OpenCV/video_grid.cpp) - High-performance C++ grid renderer.
 *   `Meta/` - Documentation assets and figures.
 
 ## 🗓 Roadmap
@@ -77,9 +77,9 @@ The system operates as a batch processing pipeline optimized for rendering throu
 
 ## 📝 Changelog
 
-### Python Implementation (`main.py`)
+### Python Implementation ([`main.py`](main.py))
 
-*   **[Unreleased] - 2025-09-03**
+*   **[Unreleased] - 2026-01-12**
     *   **Added**: Enhanced type hinting for parameters/returns.
     *   **Changed**: Return value boolean consistency, cleanup imports.
     *   **Goal**: Better maintainability and reduced runtime errors.
@@ -93,7 +93,7 @@ The system operates as a batch processing pipeline optimized for rendering throu
     *   Initial release: 3x5 grid, synchronous playback, FFMPEG backend.
     *   Batch processing of 15 videos/batch.
 
-### C++ Implementation (`video_grid.cpp`)
+### C++ Implementation ([`video_grid.cpp`](OpenCV/video_grid.cpp))
 
 *   **v1.0.0 - 2025-07-29**
     *   Port of Python logic to C++17.
@@ -109,7 +109,7 @@ The system operates as a batch processing pipeline optimized for rendering throu
 
 ## 📄 License & Contact
 
-This project is licensed under the terms found in the `LICENSE` file.
+This project is licensed under the terms found in the [`LICENSE`](LICENSE) file.
 
 **Contribution & Support**:
 For questions or improvements, please reach out to **Yassin Riyazi** at [iyasiniyasin98@gmail.com](mailto:iyasiniyasin98@gmail.com).
